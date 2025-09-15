@@ -12,8 +12,6 @@ This project provides APIs for user authentication, product management, order pr
 - [Configuration](#configuration)
 - [Running Tests](#running-tests)
 - [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
 
 ---
 
@@ -66,11 +64,15 @@ This project provides APIs for user authentication, product management, order pr
     ```bash
     python manage.py runserver
 
+---
+
 ## Configuration
 
 - **Database:** Set PostgreSQL credentials in .env or settings.py.
 - **Media Files:** Configure MEDIA_URL and MEDIA_ROOT in settings.py.
 - **Environment Variables:** Use a .env file to store sensitive keys.
+
+---
 
 ## Running Tests
 
@@ -80,6 +82,8 @@ This project provides APIs for user authentication, product management, order pr
 
 - Includes tests for users, products, orders, payments, and cart models.
 - Ensures business logic like stock management, order total calculation, and payment status is working correctly.
+
+---
 
 ## Project Structure
 
@@ -94,14 +98,4 @@ This project provides APIs for user authentication, product management, order pr
     ├─ static/          # Static files
     └─ manage.py
 
-## Contributing
-
-**Contributions are welcome!**
-**Steps to contribute:**
-1. Fork the repository
-2. Create a new branch: git checkout -b feature/your-feature
-3. Make your changes
-4. Commit your work: git commit -m "Add feature"
-5. Push to your branch: git push origin feature/your-feature
-6. Open a Pull Request
-
+---
